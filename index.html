@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="css/style_padrão.css">
+    <link rel="stylesheet" href="css/style_contraste.css">
+
+</head>
+
+<body>
+
+    <header id="header">
+        <div class="container">
+            <div class="flex">
+
+                <img class="logo" src="img/logo.png" alt="">
+
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#sobre">Sobre mim</a></li>
+                        <li><a href="#proj">Projetos</a></li>
+                        <li><a href="#contatos">Contatos</a></li>
+                    </ul>
+                </nav>
+
+                <div class="btn-contraste">
+                    <button onclick="toggleContrast()">Contraste</button>
+                </div>
+
+            </div><!--flex-->
+
+        </div><!--container-->
+    </header>
+
+    <section class="banner">
+        <span>Meu nome é <h1>Daniele</h1></span>
+    </section>
+
+
+    <div id="sobre"></div>
+
+    <h2>Sobre Mim</h2><br>
+
+    <section class="sobre">
+
+        <div class="card">
+            <h3>Quem sou eu?</h3>
+
+            <p>Me chamo Daniele, tenho 16 anos, estou na 2ª série do ensino médio, atualmente moro em Cotia-SP.
+                Nos meus tempos livres eu gosto de ler, ouvir música, jogar vôlei, programar, e resolver algumas
+                charadas e problemas matemáticos.
+                Estou fazendo o curso de Desenvolvimento Web na AFESU Moinho, em Cotia. Comecei a me interessar por
+                programação no início desse ano, então me candidatei a vaga para a turma de DW.
+            </p>
+        </div>
+
+        <div class="card" id="card">
+            <h3>Habilidades</h3>
+
+            <ul id="card_container">
+
+                <li id="card_icon">
+                    <img src="img/html.svg" alt="html">
+                </li>
+
+                <li id="card_icon">
+                    <img src="img/css.svg" alt="css">
+                </li>
+
+                <li id="card_icon">
+                    <img src="img/js.svg" alt="js">
+                </li>
+
+                <li id="card_icon">
+                    <img src="img/figma.svg" alt="figma">
+                </li>
+
+                <li id="card_icon">
+                    <img src="img/trello.svg" alt="trello">
+                </li>
+
+                <li id="card_icon">
+                    <img src="img/miro.png" alt="miro">
+                </li>
+            </ul>
+        </div>
+    </section>
+
+
+    <div id="proj"></div>
+
+    <h2>Projetos</h2>
+
+    <section class="proje">
+        <div class="projetos">
+
+            <div class="projeto">
+                <a href="img/form.png" target="_blank"><img class="proj" src="img/form.png" alt="form"></a>
+            </div>
+
+            <div class="projeto">
+                <a href="img/imc.png" target="_blank"><img class="proj" src="img/imc.png" alt="IMC"></a>
+            </div>
+
+            <div class="projeto">
+                <a href="img/cadastro.png" target="_blank"><img class="proj" src="img/cadastro.png" alt="cadastro"></a>
+            </div>
+
+            <div class="projeto">
+                <a href="img/login.png" target="_blank"><img class="proj" src="img/login.png" alt="login"></a>
+            </div>
+
+            <div class="projeto">
+                <a href="img/QUIZ.png" target="_blank"><img class="proj" src="img/QUIZ.png" alt="QUIZ"></a>
+            </div>
+
+            <div class="projeto">
+                <a href="img/crom.png" target="_blank"><img class="proj" src="img/crom.png" alt="cronometro"></a>
+            </div>
+
+            <div class="projeto">
+                <a href="img/site.png" target="_blank"><img class="proj" src="img/site.png" alt="site"></a>
+            </div>
+
+            <div class="projeto">
+                <a href="img/lista.png" target="_blank"><img class="proj" src="img/lista.png" alt="lista"></a>
+            </div>
+
+            <div class="projeto">
+                <a href="img/memory.png" target="_blank"><img class="proj" src="img/memory.png" alt="jogo da memória"></a>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <h2>Contatos</h2>
+
+    <section id="contatos">
+
+        <div class="conts">
+
+
+            <div class="social">
+                <a href="https://www.linkedin.com/in/dani-aguiar/" target="_blank"><img src="img/link.png"></a>
+            </div>
+
+            
+            <div class="social">
+                <a href="https://github.com/daniihaguiar" target="_blank"><img src="img/git.png"></a>
+            </div>
+
+          <div class="social">
+           <a href="https://wa.me/5511937360781" target="_blank"><img src="img/whats.png"></a> 
+          </div>
+        
+          <div class="social">
+           <a href="mailto:danieleaguiar272@gmail.com" target="_blank"><img src="img/email.png"></a> 
+          </div>
+         
+          <div class="social">
+            <a href="https://www.instagram.com/ups_daniih/" target="_blank"><img src="img/insta.png"></a> 
+           </div>
+        
+        </ul>
+
+    </section>
+
+    <footer class="rodape">
+        <p class="foot">Todos os direitos reservados | &copy; 2023 Daniele S.</p>
+    </footer>
+
+    <script src="js/menu.js"></script>
+    <script src="js/contraste.js"></script>
+
+</body>
+
+</html>

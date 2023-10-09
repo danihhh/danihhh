@@ -1,0 +1,81 @@
+/* Estilização em alto contraste do portfolio */
+
+body.high-contrast {
+    background-color: #ffffff; 
+    color: black;
+}
+
+body.high-contrast header ul li a {
+    color: #391d34;
+    text-decoration: none;
+}
+
+body.high-contrast header.rolagem {
+    background-color: #0f010c;
+    padding: 20px 4%;
+}
+
+body.high-contrast header.rolagem a, header.rolagem i {
+    color: #fff;
+}
+
+body.high-contrast header ul li a:hover {
+    color: #2e0627;
+    border-bottom: 1.4px solid #2e0627;
+}
+
+body.high-contrast .btn-contraste button {
+    background-color: #33192e;
+    color: #fff;
+}
+
+body.high-contrast header.rolagem .btn-contraste button {
+    background-color: #764e6f;
+    color: #ffffff;
+}
+
+body.high-contrast .banner span {
+    color: rgb(0, 0, 0);
+}
+
+body.high-contrast .banner span h1 {
+    color: #6c4245;
+    text-shadow: rgb(0, 0, 0) 0.06em 0.06em 0.07em;
+}
+
+body.high-contrast h2 {
+    color: black;
+    text-shadow: 
+               4px 4px 4px #66355D, 
+               2px 2px 2px #a16c97,                    
+                2px 4px 2px #a24d52,                  
+                2px 2px 2px #9b6992;
+}
+
+body.high-contrast h3 {
+    color: #66355D;
+    border-bottom: 2px solid #66355D;
+}
+
+body.high-contrast #sobre {
+    background-color: #2a1326;
+    border: 2px solid #9b6992;
+    border-left: none;
+    border-right: none;
+}
+
+body.high-contrast .card {
+    border: 1px solid #0f010c;
+}
+
+body.high-contrast .proj {
+    border: 6px solid #4a3446;
+}
+
+body.high-contrast .conts {
+    background-color: #4f374a;
+}
+
+body.high-contrast .rodape {
+    background-color: #0f010c;
+}
