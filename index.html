@@ -24,7 +24,7 @@
                     <ul>
                         <li><a href="#">Home</a></li>
                         <li><a href="#sobre">Sobre mim</a></li>
-                        <li><a href="#proj">Projetos</a></li>
+                        <li><a href="#proje">Projetos</a></li>
                         <li><a href="#contatos">Contatos</a></li>
                     </ul>
                 </nav>
@@ -39,24 +39,31 @@
     </header>
 
     <section class="banner">
+        <div class="bg"></div>
+        <div class="trilha">
+            <div class="ball ball1"></div>
+            <div class="ball ball2"></div>
+            <div class="ball ball3"></div>
+            <div class="ball ball4"></div>
+            <div class="ball ball5"></div>
+        </div>
         <span>Meu nome é <h1>Daniele</h1></span>
     </section>
 
 
-    <div id="sobre"></div>
 
-    <h2>Sobre Mim</h2><br>
-
-    <section class="sobre">
+    <div class="sobre"></div>
+    <h2>Sobre Mim</h2>
+    <section id="sobre">
 
         <div class="card">
             <h3>Quem sou eu?</h3>
 
-            <p>Me chamo Daniele, tenho 16 anos, estou na 2ª série do ensino médio, atualmente moro em Cotia-SP.
-                Nos meus tempos livres eu gosto de ler, ouvir música, jogar vôlei, programar, e resolver algumas
+            <p>Me chamo Daniele, tenho 16 anos, estou na 2ª série do Ensino Médio, atualmente moro em Cotia-SP.
+                No meu tempo livre eu gosto de ler, ouvir música, jogar vôlei, programar, e resolver algumas
                 charadas e problemas matemáticos.
                 Estou fazendo o curso de Desenvolvimento Web na AFESU Moinho, em Cotia. Comecei a me interessar por
-                programação no início desse ano, então me candidatei a vaga para a turma de DW.
+                programação por adorar da área de design.
             </p>
         </div>
 
@@ -93,47 +100,73 @@
     </section>
 
 
-    <div id="proj"></div>
-
-    <h2>Projetos</h2>
-
-    <section class="proje">
+    <section id="proje">
+        <h2>Projetos</h2>
         <div class="projetos">
 
             <div class="projeto">
-                <a href="img/form.png" target="_blank"><img class="proj" src="img/form.png" alt="form"></a>
+                <img class="proj" src="img/form.png" alt="form">
+                <a href="img/form.png" target="_blank">
+                    <div class="overlay">Formulário de contato, com input de nome, E-mail e uma mensagem.</div>
+                </a>
             </div>
 
             <div class="projeto">
-                <a href="img/imc.png" target="_blank"><img class="proj" src="img/imc.png" alt="IMC"></a>
+                <img class="proj" src="img/imc.png" alt="IMC">
+                <a href="img/imc.png" target="_blank">
+                    <div class="overlay">Uma calculadora IMC, que calcula se você está saudável com base no seu peso e
+                        na sua altura.</div>
+                </a>
             </div>
 
             <div class="projeto">
-                <a href="img/cadastro.png" target="_blank"><img class="proj" src="img/cadastro.png" alt="cadastro"></a>
+                <img class="proj" src="img/cadastro.png" alt="cadastro">
+                <a href="img/cadastro.png" target="_blank">
+                    <div class="overlay">Formulário de usuário que salva os dados inseridos na tabela embaixo.</div>
+                </a>
             </div>
 
             <div class="projeto">
-                <a href="img/login.png" target="_blank"><img class="proj" src="img/login.png" alt="login"></a>
+                <img class="proj" src="img/login.png" alt="login">
+                <a href="img/login.png" target="_blank">
+                    <div class="overlay">Um breve formulário de login com input para usuário e senha.</div>
+                </a>
             </div>
 
             <div class="projeto">
-                <a href="img/QUIZ.png" target="_blank"><img class="proj" src="img/QUIZ.png" alt="QUIZ"></a>
+                <img class="proj" src="img/QUIZ.png" alt="QUIZ">
+                <a href="img/QUIZ.png" target="_blank">
+                    <div class="overlay">Um quiz de 5 peguntas, com contraste e com botão para ler a alternativa.</div>
+                </a>
             </div>
 
             <div class="projeto">
-                <a href="img/crom.png" target="_blank"><img class="proj" src="img/crom.png" alt="cronometro"></a>
+                <img class="proj" src="img/crom.png" alt="cronometro">
+                <a href="img/crom.png" target="_blank">
+                    <div class="overlay">Um cronometro com botão de Pausar, Reiniciar e Zerar.</div>
+                </a>
             </div>
 
             <div class="projeto">
-                <a href="img/site.png" target="_blank"><img class="proj" src="img/site.png" alt="site"></a>
+                <img class="proj" src="img/site.png" alt="site">
+                <a href="img/site.png" target="_blank">
+                    <div class="overlay">Um site de 2 páginas sobre um PetShop.</div>
+                </a>
             </div>
 
             <div class="projeto">
-                <a href="img/lista.png" target="_blank"><img class="proj" src="img/lista.png" alt="lista"></a>
+                <img class="proj" src="img/lista.png" alt="lista">
+                <a href="img/lista.png" target="_blank">
+                    <div class="overlay">Uma lista de tarefas que salva elas em um card abaixo, com função de deletar e
+                        marcar como concluída.</div>
+                </a>
             </div>
 
             <div class="projeto">
-                <a href="img/memory.png" target="_blank"><img class="proj" src="img/memory.png" alt="jogo da memória"></a>
+                <img class="proj" src="img/memory.png" alt="jogo da memória">
+                <a href="img/memory.png" target="_blank">
+                    <div class="overlay">Jogo da memória com o tema: Stray Kids (K-pop), com botão de resetar. </div>
+                </a>
             </div>
 
         </div>
@@ -152,32 +185,34 @@
                 <a href="https://www.linkedin.com/in/dani-aguiar/" target="_blank"><img src="img/link.png"></a>
             </div>
 
-            
+
             <div class="social">
                 <a href="https://github.com/daniihaguiar" target="_blank"><img src="img/git.png"></a>
             </div>
 
-          <div class="social">
-           <a href="https://wa.me/5511937360781" target="_blank"><img src="img/whats.png"></a> 
-          </div>
-        
-          <div class="social">
-           <a href="mailto:danieleaguiar272@gmail.com" target="_blank"><img src="img/email.png"></a> 
-          </div>
-         
-          <div class="social">
-            <a href="https://www.instagram.com/ups_daniih/" target="_blank"><img src="img/insta.png"></a> 
-           </div>
-        
-        </ul>
+            <div class="social">
+                <a href="https://wa.me/5511937360781" target="_blank"><img src="img/whats.png"></a>
+            </div>
+
+            <div class="social">
+                <a href="mailto:danieleaguiar272@gmail.com" target="_blank"><img src="img/email.png"></a>
+            </div>
+
+            <div class="social">
+                <a href="https://www.instagram.com/ups_daniih/" target="_blank"><img src="img/insta.png"></a>
+            </div>
+
+            </ul>
 
     </section>
 
     <footer class="rodape">
         <p class="foot">Todos os direitos reservados | &copy; 2023 Daniele S.</p>
+        <button class="topo"><a href="#">TOPO</a></button>
     </footer>
 
-    <script src="js/menu.js"></script>
+
+
     <script src="js/contraste.js"></script>
 
 </body>

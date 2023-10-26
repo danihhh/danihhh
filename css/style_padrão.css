@@ -12,6 +12,7 @@ html {
     color: white;
 }
 
+/* estilizando o header/menu */
 .logo {
     width: 10rem;
     height: auto;
@@ -32,21 +33,10 @@ html {
 header {
     width: 100%;
     padding: 60px 4%;
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     transition: .5s;
-}
-
-header.rolagem {
-    background-color: #fff;
-    border-bottom: 2px solid #47083e;
-    padding: 20px 4%;
-}
-
-header.rolagem a,
-header.rolagem i {
-    color: #391d34;
 }
 
 header i {
@@ -68,11 +58,6 @@ header ul li a {
     text-decoration: none;
 }
 
-header ul li a:hover {
-    color: #66355D;
-    border-bottom: 1.4px solid #66355D;
-}
-
 .btn-contraste button {
     width: 120px;
     height: 40px;
@@ -85,9 +70,12 @@ header ul li a:hover {
     transition: .2s;
 }
 
+/* estilizando o banner */
 .banner {
-    height: 80vh;
+    height: 100vh;
+    background-image: url(../img/video-banner.gif);
     background-position: 100% 0;
+    background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -105,6 +93,7 @@ header ul li a:hover {
     font-size: 4em;
 }
 
+/* estilizando h2 e h3 */
 h2 {
     font-size: 9em;
     text-align: center;
@@ -113,11 +102,11 @@ h2 {
     -webkit-background-clip: text;
     margin-top: 10rem;
     color: white;
-    text-shadow: 
-               4px 4px 4px #66355D, 
-               2px 2px 2px #a16c97,                    
-                2px 4px 2px #a24d52,                  
-                2px 2px 2px #9b6992;
+    text-shadow:
+        4px 4px 4px #66355D,
+        2px 2px 2px #a16c97,
+        2px 4px 2px #a24d52,
+        2px 2px 2px #9b6992;
 }
 
 h3 {
@@ -127,7 +116,8 @@ h3 {
     border-bottom: 1px solid #8A424B;
 }
 
-#sobre {
+/* estilizando a section .sobre*/
+.sobre {
     height: 80px;
     background-color: #ffffff;
     border: 2px solid #47083e;
@@ -135,7 +125,7 @@ h3 {
     border-right: none;
 }
 
-.sobre {
+#sobre {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 10fr));
     gap: 20px;
@@ -157,7 +147,7 @@ h3 {
 }
 
 .card p {
-    font-size: 2.75vh;
+    font-size: 3vh;
     margin: 0;
     margin-bottom: 10px;
     text-align: left;
@@ -173,13 +163,13 @@ h3 {
     max-width: 400px;
     height: 100px;
 }
- 
+
 #card_container {
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
 }
-  
+
 #card_icon {
     width: 150px;
     height: 150px;
@@ -190,16 +180,17 @@ h3 {
     align-items: center;
     gap: 12px;
 }
-  
+
 #card_icon i {
     font-size: 3rem;
 }
-  
+
 #card_icon span {
     font-weight: 700;
     font-size: 1.5rem;
 }
 
+/* estilizando a section .proje*/
 .projetos {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 10fr));
@@ -220,6 +211,37 @@ h3 {
     border: 6px solid #391d34;
 }
 
+.projeto {
+    position: relative;
+
+}
+
+.projeto img {
+    transition: opacity 0.3s ease;
+}
+
+.overlay {
+    position: absolute;
+    padding: 1.5rem;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #150312b3;
+    color: #fff;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.projeto:hover .overlay {
+    opacity: 1;
+}
+
+/* estilizando a section #contatos */
 .conts {
     width: 40%;
     height: auto;
@@ -235,29 +257,49 @@ h3 {
     margin-left: 70px;
     width: 60px;
     height: 60px;
-    display:inline-block;
+    display: inline-block;
     position: relative;
 }
 
 .social img {
     position: absolute;
-    top: 50%; 
+    top: 50%;
     left: 50%;
     width: 50px;
     height: 50px;
-    transform: translate(-50%, -50%);  
+    transform: translate(-50%, -50%);
 }
 
+/* estilizando o footer */
 .rodape {
     margin-top: 8%;
-    background-color: #0f010c;
-    color: #fff;
+    background-color: #ffffff;
+    color: #000000;
     text-align: center;
     padding: 10px 0;
     border-top: 2px solid #391d34;
-    height: 4rem;
+    height: 6rem;
 }
 
 .foot {
     margin-top: 10px;
+}
+
+/* estilização do menu*/
+.topo a {
+    text-decoration: none;
+    color: white;
+}
+
+.topo {
+    margin-top: 0.5rem;
+    width: 120px;
+    height: 40px;
+    border: 0;
+    border-radius: 16px;
+    box-shadow: 2px 2px 2px #000;
+    background-color: #33192e;
+    color: #fff;
+    cursor: pointer;
+    transition: .2s;
 }
