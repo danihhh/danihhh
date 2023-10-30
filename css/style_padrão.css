@@ -60,6 +60,12 @@ header ul li a {
     text-decoration: none;
 }
 
+header ul li a:hover {
+    color: #910ebc;
+    border-bottom: 1px solid #910ebc;
+    padding-bottom: 1rem;
+}
+
 .btn-contraste button {
     width: 120px;
     height: 40px;
@@ -72,13 +78,13 @@ header ul li a {
     transition: .2s;
 }
 
+.btn-contraste button:hover {
+    background-color: #764e6f;
+}
+
 /* estilizando o banner */
 .banner {
-    height: 100vh;
-    background-image: url(../img/video-banner.gif);
-    background-position: 100% 0;
-    background-repeat: no-repeat;
-    background-size: cover;
+    height: 50vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -119,15 +125,6 @@ h3 {
 }
 
 /* estilizando a section .sobre*/
-#sobre {
-    height: 80px;
-    background-color: #0e000b;
-    border: 2px solid #150312;
-    border-left: none;
-    border-right: none;
-    
-}
-
 .sobre {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 10fr));

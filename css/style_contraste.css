@@ -6,17 +6,13 @@ body.high-contrast {
 }
 
 body.high-contrast header ul li a {
-    color: #391d34;
+    color: #6e4366;
     text-decoration: none;
 }
 
-body.high-contrast header.rolagem a, header.rolagem i {
-    color: #fff;
-}
-
 body.high-contrast header ul li a:hover {
-    color: #2e0627;
-    border-bottom: 1.4px solid #2e0627;
+    color: #d879c6;
+    border-bottom: 1.4px solid #d879c6
 }
 
 body.high-contrast .btn-contraste button {
@@ -24,8 +20,13 @@ body.high-contrast .btn-contraste button {
     color: #fff;
 }
 
-body.high-contrast header.rolagem .btn-contraste button {
+body.high-contrast header .btn-contraste button {
     background-color: #764e6f;
+    color: #ffffff;
+}
+
+body.high-contrast header .btn-contraste button:hover {
+    background-color: #33192e;
     color: #ffffff;
 }
 
@@ -52,15 +53,10 @@ body.high-contrast h3 {
     border-bottom: 2px solid #66355D;
 }
 
-body.high-contrast .sobre {
-    background-color: #2a1326;
-    border: 2px solid #9b6992;
-    border-left: none;
-    border-right: none;
-}
-
 body.high-contrast .card {
-    border: 1px solid #0f010c;
+    background-color: #2a1326;
+    border: 2px solid #0f010c;
+    color: #fff;
 }
 
 body.high-contrast .proj {
@@ -73,4 +69,5 @@ body.high-contrast .conts {
 
 body.high-contrast .rodape {
     background-color: #0f010c;
+    color: #fff;
 }
